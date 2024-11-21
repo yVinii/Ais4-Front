@@ -1,0 +1,15 @@
+@import '@fontsource/poppins';
+@import '@fontsource/orbitron'; /* Importando a fonte Orbitron */
+@import '@fontsource/dosis'; /* Importa a fonte Dosis */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
