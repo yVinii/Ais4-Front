@@ -30,3 +30,21 @@ npm install @ionic/core
 POR FIM:
 
 npm run dev
+
+paletas possíveis:
+
+paleta1:
+. azul
+. preto
+. verde
+primary: "#97efeb"
+secondary: "#0d0d0d"
+terciary: "#04d98b"
+
+paleta2:
+. roxo
+. branco
+. verde
+primary: "#1f1561"
+secondary: "#f5f5f5",
+terciary: "#04d98b"

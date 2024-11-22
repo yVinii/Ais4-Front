@@ -125,3 +125,26 @@
     /* Fim dos Direitos */
 
 }
+
+
+@media (min-width: 330px) and (max-width: 480px) {
+    .contato {
+        gap: 10px
+    }
+
+    .footer-buttons {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 329px) {
+    .contato {
+        gap: 10px
+    }
+
+    .footer-buttons {
+        width: 50px;
+        height: 50px;
+    }
+}
