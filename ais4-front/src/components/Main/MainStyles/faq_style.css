@@ -1,0 +1,63 @@
+/*
+1. Branco        -> #FFFFFF -> (255,255,255)
+2. Roxo Escuro   -> #3C2DA4 -> (60,45,164)
+3. Rosa Suave    -> #E79ECF -> (231,158,207)
+4. Azul Claro    -> #A8D8F8 -> (168,216,248)
+5. Roxo mais escuro → #181254  → (24,18,84)
+6. Roxo ainda mais escuro (novo) → #120E3D → (18,14,61)
+7. Verde Vibrante → #04D98B -> (4,217,139)
+*/
+
+.faq {
+    background: radial-gradient(circle, rgba(60 ,45 ,164 , 1) 0%, rgba(60 ,45 ,164 , 0.9) 70%, rgba(60 ,45 ,164 , 1) 100%);
+    height: auto;
+    gap: 20px;
+}
+
+.dropdown {
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: box-shadow 0.6s ease;
+}
+
+.dropdown:hover {
+    box-shadow: 0 4px 10px rgba(168,216,248, 0.9); /* Um pouco de sombra para destacar */
+
+}
+
+.dropdown-question {
+    font-weight: bold;
+    color: #3C2DA4;
+}
+
+.dropdown-answer {
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 0.9rem;
+    color: #3C2DA4;
+    
+    max-height: 0; /* Inicialmente escondido */
+    opacity: 0; /* Transparente */
+    overflow: hidden; /* Esconde conteúdo excedente */
+    transition: max-height 1.2s ease, opacity 0.3s ease; /* Transição suave */
+}
+
+.dropdown-answer.active {
+    max-height: 100px; /* Altura suficiente para o conteúdo */
+    opacity: 1; /* Torna visível */
+}
+
+
+
+.container-faq-tittle h1 {
+    background: linear-gradient(to right, #A8D8F8 30%, #E79ECF 50%, #04D98B 70%); /* Intensificando as cores nas extremidades */
+    -webkit-background-clip: text; /* Aplica o gradiente no texto para navegadores WebKit */
+    background-clip: text; /* Compatibilidade padrão, mas não amplamente suportado */
+    color: transparent; /* Torna o texto transparente para que o gradiente seja visível */
+    font-size: 3rem;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}

@@ -3,6 +3,7 @@ import { NavbarMenu  } from '../../mockData/data'
 import { IoIosRocket } from "react-icons/io";
 import { MdMenu } from "react-icons/md";
 import ResponsiveMenu from './ResponsiveMenu';
+import './NavbarStyles/navbar_syles.css'
 
 const Navbar = () => {
   const [open, setOpen] = React.useState(false); 

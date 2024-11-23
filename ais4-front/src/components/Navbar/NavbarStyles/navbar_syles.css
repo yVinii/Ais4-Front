@@ -1,0 +1,37 @@
+/*
+1. Branco        -> #FFFFFF -> (255,255,255)
+2. Roxo Escuro   -> #3C2DA4 -> (60,45,164)
+3. Rosa Suave    -> #E79ECF -> (231,158,207)
+4. Azul Claro    -> #A8D8F8 -> (168,216,248)
+5. Roxo mais escuro → #181254  → (24,18,84)
+6. Roxo ainda mais escuro (novo) → #120E3D → (18,14,61)
+7. Verde Vibrante → #04D98B -> (4,217,139)
+*/
+
+.bg-secondary{
+    background: radial-gradient(circle, rgba(231,158,207, 0) 0%, rgba(231,158,207, 0.3) 70%, rgba(231,158,207, 0) 100%);
+}
+
+.text-primary {
+    color: #3C2DA4;
+}
+
+.text-terciary {
+    color: #A8D8F8;
+}
+
+.border-terciary {
+    border-color: #A8D8F8;
+}
+
+.border-terciary:hover {
+    background-color: #A8D8F8;
+}
+
+.border-primary {
+    border-color: #3C2DA4;
+}
+
+.border-primary:hover {
+    background-color: #3C2DA4;
+}
