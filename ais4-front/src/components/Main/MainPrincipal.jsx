@@ -2,34 +2,8 @@ import React from 'react'
 import ButtonCreateProject from './ButtonCreateProject';
 import './MainStyles/main_style.css';
 import './MainStyles/cardprice_style.css';
-import Accordion from "./Accordion";
 import Faq from "./FAQ";
 
-
-const questionsAnswers = [
-  {
-    question: "How many team members can I invite?",
-    answer:
-      "You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.",
-  },
-  {
-    question: "What is the maximum file upload size?",
-    answer:
-      "No more than 2GB. All files in your account must fit your allotted storage space.",
-  },
-  {
-    question: "How do I reset my password?",
-    answer: `Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.`,
-  },
-  {
-    question: "Can I cancel my subscription?",
-    answer: `Yes! Send us a message and we’ll process your request no questions asked.`,
-  },
-  {
-    question: "Do you provide additional support?",
-    answer: `Chat and email support is available 24/7. Phone lines are open during normal business hours.`,
-  },
-];
 const MainPrincipal = () => {
   return (
     <>
@@ -53,10 +27,6 @@ const MainPrincipal = () => {
                 <iframe src="https://www.youtube.com/embed/ymuBowcODVU?si=cL-q_e3yiy0-IGa7" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div>
         </div>
-        {/*<div className="container-planos">
-            
-        </div>*/}
-
       </section>
       <section className='form'>
       <div className="container-form">
@@ -87,8 +57,7 @@ const MainPrincipal = () => {
                 </div>
                 
                 <div className="button-group">
-                  <button type="button" className="btn-submit-form">Criar Projeto Pessoal</button>
-                  <button type="button" className="btn-submit-form">Criar Projeto Empresarial</button>
+                  <button type="button" className="btn-submit-form">Crie seu Primeiro Workspace</button>
                 </div>
               </form>
             </div>

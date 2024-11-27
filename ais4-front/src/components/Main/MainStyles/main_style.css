@@ -17,6 +17,7 @@ section {
     gap: 20vh;
     /*box-shadow: 10px 50px 10px rgba(0, 0, 0, 1); /* Um pouco de sombra para destacar */
 }
+
 /* Main */
 
 .main {
@@ -135,16 +136,9 @@ section {
 /* Form */
 
 .form {
-    background: radial-gradient(circle, rgba(231,158,207, 0.7) 0%, rgba(231,158,207, 0.1) 70%, rgba(231,158,207, 0.7) 100%);
-    height: 80vh;
-}
-
-/* Manchas triangulares nos cantos */
-.bubble {
-    position: absolute;
-    pointer-events: none; /* Evita interferência no conteúdo */
-    opacity: 0.3; /* Opacidade da mancha */
-    border-radius: 50%; /* Bordas suaves */
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.4);
+    background: radial-gradient(circle, rgba(231,158,207, 0.1) 0%, rgba(231,158,207, 0.7) 70%, rgba(231,158,207, 0.1) 100%);
+    height: 90vh;
 }
 
 .container-form {
@@ -188,7 +182,8 @@ section {
     padding: 30px;
     display: flex;
     flex-direction: column;
-    height: 600px;
+    width: 550px;
+    height: 650px;
     background-color: transparent;
     /*border: 3px solid #1f1561; */
     box-shadow: 0 4px 10px rgba(60,45,164, 0.9); /* Um pouco de sombra para destacar */
@@ -278,8 +273,8 @@ section {
 .checkbox-form:checked::after {
     content: '';
     position: absolute;
-    top: 2px; /* Ajustado para centralizar verticalmente */
-    left: 5px; /* Ajustado para centralizar horizontalmente */
+    top: 4px; /* Ajustado para centralizar verticalmente */
+    left: 7px; /* Ajustado para centralizar horizontalmente */
     width: 6px;
     height: 10px;
     border: solid white;
@@ -324,7 +319,8 @@ section {
 /* Planos */
 
 .planos {
-    background: radial-gradient(circle, rgba(231,158,207, 0.7) 0%, rgba(231,158,207, 0.1) 70%, rgba(231,158,207, 0.7) 100%);
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+    background: radial-gradient(circle, rgba(231,158,207, 0.1) 0%, rgba(231,158,207, 0.7) 70%, rgba(231,158,207, 0.1) 100%);
     height: 90vh;
 }
 
